@@ -1,0 +1,50 @@
+{"count": "4", "results": [
+    {
+        "id": "01",
+        "name": "Toronto Raptors",
+        "logo": "https://d2p3bygnnzw9w3.cloudfront.net/req/202005131/tlogo/bbr/TOR-2019.png",
+        "city": "Toronto",
+        "division": "Atlantic",
+        "conference": "Eastern",
+        "players": ["Ogugua Anunoby", "Chris Boucher", "Lorenzo Brown",
+        "Marc Gasol", "Danny Green","Serge Ibaka","Kawhi Leonard","Jeremy Lin",
+        "Kyle Lowry","Jordan Loyd","Patric McCaw","Jodie Meeks","Calvin Miles Jr",
+        "Malcolm Miller", "Greg Monroe", "Eric Moreland", "Norman Powell", "Malachi Richardson",
+        "Pascal Siakam", "Jonas Valančiūnas", "Fred VanVleet", "Delon Wright"]
+    }, {
+        "id": "02",
+        "name": "Milwaukee Bucks",
+        "logo": "https://d2p3bygnnzw9w3.cloudfront.net/req/202005131/tlogo/bbr/MIL-2019.png",
+        "city": "Milwaukee",
+        "division": "Central",
+        "conference": "Eastern",
+        "players": ["Giannis Antetokounmpo", "Eric Bledsoe", "Malcolm Brogdon",
+        "Sterling Brown","Isaiah Canaan","Bonzie Colson","Pat Connaughton","Matthew Dellavedova",
+        "Donte DiVincenzo","Trevon Duval","Tim Frazier","Pau Gasol","John Henson","George Hill",
+        "Ersan İlyasova","Brook Lopez","Thon Maker","Khris Middleton","Nikola Mirotić",
+        "Jaylen Morris","Jason Smith","Tony Snell","DeVante Jaylen Wilson","Christian Wood"]
+    }, {
+        "id": "03",
+        "name": "Golden State Warriors",
+        "logo": "https://d2p3bygnnzw9w3.cloudfront.net/req/202005131/tlogo/bbr/GSW-2019.png",
+        "city": "San Francisco",
+        "division": "Pacific",
+        "conference": "Western",
+        "players": ["Jordan Bell","Andrew Bogut","Quinn Cook","DeMarcus Cousins","Stephen Curry",
+        "Marcus Derrickson","Kevin Durant","Jacob Evans","Draymond Green","Andre Iguodala","Jonas Jerebko",
+        "Damian Jones","Damion Lee","Shaun Livingston","Kevon Looney","Alfonzo McKinnie","Klay Thompson"]
+    }, {
+        "id": "04",
+        "name": "Portland Trail Blazers",
+        "logo": "https://d2p3bygnnzw9w3.cloudfront.net/req/202005131/tlogo/bbr/POR-2019.png",
+        "city": "Portland",
+        "division": "Northwest",
+        "conference": "Western",
+        "players": ["Al-Farouq Aminu","Wade Baldwin","Zach Collins","Seth Curry","Maurice Harkless",
+        "Rodney Hood","Enes Kanter","Skal Labissière","Jake Layman","Meyers Leonard","Damian Lillard",
+        "Christian James McCollum","Jusuf Nurkić","Anfernee Simons","Nik Stauskas","Caleb Swanigan",
+        "Gary Trent","Evan Turner"]
+    }
+]}
+
+
