@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gran Playoff</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+</head>
+<body>
+  <div id="header">
+      <img src="img/logo.png"></img>
+      <div id="info" class="header-container">
+        <div id="balance-info" class="header-container">
+          <div id="pins" class="info-div header-container">
+            </strong><button class="balance-button">0</button><strong >PINES DISPONIBLES</strong>
+          </div>
+          <div id="balance" class="info-div header-container">
+            <strong>$</strong><button class="balance-button">0</button><strong>SALDO</strong>
+          </div>
+        </div>
+        <div id="user-info" class="header-container">
+          <div id="user-notifs" class="info-div header-container">
+            <div class="notif-container header-container">
+              <i class="fa fa-certificate"></i>
+              <p class="notif-number">0</p>
+            </div>
+            <div class="notif-container header-container">
+              <i class="fa fa-bell"></i>
+              <p class="notif-number">0</p>
+            </div>
+          </div>
+          <div id="user-menu" class="info-div header-container">
+            <strong id="username-display">TU NOMBRE</strong>
+            <div class="relative header-container">
+              <select class="appearance-none">
+              <option selected></option>
+              <option>Mi perfil</option>
+              <option>Mi equipo</option>
+              <option>Mi saldo</option>
+              </select>
+              <div class="menu-icon pointer-events-none absolute right-1 flex items-center">
+                <i class="text-white fill-current h-4 w-4 fa fa-user-circle"></i>
+                <i class="text-white fill-current h-4 w-4 fa fa-sort-desc"></i>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div id="mob-header">
+    <a href="#main-menu"
+    id="main-menu-toggle"
+    class="menu-toggle"
+    aria-label="Abrir menu">
+   <span class="sr-only">Abrir menu</span>
+   <span class="fa fa-bars" aria-hidden="true"></span>
+ </a>
+ 
+ <nav id="main-menu" class="main-menu" aria-label="Main menu">
+   <a href="#main-menu-toggle"
+      id="main-menu-close"
+      class="menu-close"
+      aria-label="Cerrar menu">
+     <span class="sr-only">Cerrar menu</span>
+     <span class="fa fa-close" aria-hidden="true"></span>
+   </a>
+
+   <ul>
+    <div id="user-notifs-mob">
+      <div class="notif-container header-container">
+        <i class="fa fa-square"></i>
+        <p class="notif-number">$0</p>
+      </div>
+      <div class="notif-container header-container">
+        <i class="fa fa-bell"></i>
+        <p class="notif-number">0</p>
+      </div>
+    </div>
+     <li><strong>USUARIO</strong></li>
+     <li><a href="#">Mi perfil</a></li>
+     <li><a href="#">Mi equipo</a></li>
+     <li><a href="#">Mis premios</a></li>
+     <li><a href="#">Mi saldo</a></li>
+     <li><a href="#">Cerrar sesión</a></li>
+     <li><strong>GRAN PLAYOFF</strong></li>
+     <li><a href="#">Mis pines</a></li>
+     <li><a href="#">Torneos de amigos</a></li>
+     <li><a href="#">Copa de amigos</a></li>
+     <li><a href="#">Desafíos uno a uno</a></li>
+     <li><a href="#">Rankings</a></li>
+   </ul>
+ </nav>
+ <a href="#main-menu-toggle"
+    class="backdrop"
+    tabindex="-1"
+    aria-hidden="true" hidden></a>
+    </div>
+  </div>
+  <div id="page-content">
+  <div id="page-navbar">
+    <div class="nav-home">
+      <a class="fa fa-home"></a>
+    </div>    
+    <div class="nav-container w-11/12">
+    <a>MI EQUIPO</a>
+    <div class="separator"></div>
+    <a>MIS PINES</a>
+    <div class="separator"></div>
+    <a>TORNEOS DE AMIGOS</a>
+    <div class="separator"></div>
+    <a>COPA DE AMIGOS</a>
+    <div class="separator"></div>
+    <a>DESAFÍOS UNO A UNO</a>
+    <div class="separator"></div>
+    <a>RANKINGS</a>
+    </div>
+  </div>
+  <div id="upper-info">
+    <div class="flex">
+      <div class="info-panel w-4/7">
+        <h5 class="info-title">ARMÁ TU EQUIPO</h5>
+        <p>Gran Playoff es muy fácil: elegí tus jugadores favoritos y <strong>armá tu equipo</strong>.
+          Podés elegir tantos jugadores por club como tu balance te permita.
+        Realizá transferencias ilimitadas libremente hasta el comienzo de la primera fecha de Gran Playoff.</p>
+      </div>
+      <div class="info-panel right-info-panel w-3/7 no-mob">
+        <p><strong>Ahora, si ganás la fecha y sos entrenador Premium</strong>, ¡te llevás $100.000!
+          <strong>Y sos el campeón de Gran Playoff</strong>, ganás un viaje a Estados Unidos para vos y un acompañante.
+        </p>
+      </div>
+    </div>
+    <div class="flex">
+      <div class="img-panel w-4/7 no-mob">
+        <img src="img/player_select.png"></img>
+        <div>
+        <strong>Jugadores recomendados por puesto</strong>
+        <p>Elegilos acá       <a class="fa fa-arrow-circle-o-down"></a></p>
+        </div>
+      </div>
+      <div class="w-3/7 button-center-panel">
+        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"><i class="fa fa-thumb-tack text-white"></i> Usá tu equipo de la edición pasada</button>
+      </div>
+    </div>
+  </div>
+  <div id="main-content">
+      <div id="team-selection" class="main-container">
+        <div class="title"><h3><i class="fa fa-list-ul"></i>LISTA DE JUGADORES</h3></div>
+        <div id="search">
+            <h5>Usá los filtros para encontrar más fácil a tus jugadores</h5>
+            <div class="break"></div>
+            <div class="w-1/2 xl:w-1/5">
+            <label class="block uppercase tracking-wide text-white text-sm font-bold mb-2">
+                CLUB
+            </label>
+                <div class="relative">
+                        <select class="small-input block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                            <i class="fa fa-unsorted"></i>
+                        <option>New Mexico</option>
+                        <option>Missouri</option>
+                        <option>Texas</option>
+                        </select>
+                        <div class="pointer-events-none absolute inset-y-0 sm:right-1 xl:right-0 flex items-center text-gray-700">
+                            <i class="fill-current h-4 w-4 fa fa-unsorted"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="w-1/2 xl:w-1/5">
+                <label class="block uppercase tracking-wide text-white text-sm font-bold mb-2">
+                    PUESTO
+                  </label>
+                  <div class="relative">
+                    <select class="small-input block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                      <option>New Mexico</option>
+                      <option>Missouri</option>
+                      <option>Texas</option>
+                    </select>
+                    <div class="pointer-events-none absolute inset-y-0 sm:right-1 xl:right-0 flex items-center text-gray-700">
+                        <i class="fill-current h-4 w-4 fa fa-unsorted"></i>
+                    </div>
+            </div>
+            </div>
+            <div class="sw-full xl:w-3/6">
+                <label class="block uppercase tracking-wide text-white text-sm font-bold mb-2">
+                    COTIZACIÓN
+                </label>
+                <div id="cotizacion" class="flex flex-col md:flex-row">
+                    <input type="number" class="small-input block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"/>
+                    <span><strong>hasta</strong></span>
+                    <input type="number" class="small-input block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"/>
+                </div>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="w-full">
+            <strong id="search-surname">Buscar por apellido</strong>
+            <input class="shadow sm:w-1/2 xl:w-3/5 appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Username">
+            <button class="fa fa-search" id="search-by-surname"></button>
+        </div>
+        </div>
+        <div id="player-table">
+            <table class="table-auto w-full">
+                <thead>
+                  <tr>
+                    <th class="px-3 py-2"></th>
+                    <th class="px-4 py-2">JUGADOR</th>
+                    <th class="px-4 py-2">CLUB</th>
+                    <th class="px-4 py-2">POS</th>
+                    <th class="px-4 py-2">$</th>
+                    <th class="px-4 py-2"><p class="fa fa-star"></p></th>
+                    <th class="px-4 py-2">PJE PROM</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 1</td>
+                    <td class="px-4 py-2">Club 1</td>
+                    <td class="px-4 py-2">Pos 1</td>
+                    <td class="px-4 py-2">$ 1</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 1</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                  <tr>
+                    <td class="px-3 py-2"><p class="fa fa-arrow-circle-right"></p></td>
+                    <td class="px-4 py-2">Jugador 2</td>
+                    <td class="px-4 py-2">Club 2</td>
+                    <td class="px-4 py-2">Pos 2</td>
+                    <td class="px-4 py-2">$ 2</td>
+                    <td class="px-4 py-2"><p class="fa fa-flag"></p></td>
+                    <td class="px-4 py-2">PJE 2</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+      </div>
+      <div id="team-information" class="main-container">
+        <div class="title"><h3><i class="fa fa-bookmark"></i>TU EQUIPO</h3></div>
+        <div id="expenses">
+            <div class="gastar"><p class="text-xl">PODÉS GASTAR</p><strong  class="text-3xl">$000.000</strong></div>
+            <div class="gastado"><p class="text-xl">LLEVÁS GASTADO</p><strong  class="text-3xl">$000.000</strong></div>
+        </div>
+        <div id="team-formation">
+            <div id="team" class="w-full md:w-3/6">
+                <div class="section">
+                    <strong class="text-lg font-bold section-title">TITULARES</strong>
+                    <table class="table-auto w-full">
+                        <thead>
+                          <tr  class="w-full">
+                            <th class="px-0 py-0"></th>
+                            <th class="px-2 py-2">POS</th>
+                            <th class="px-2 py-2">JUGADOR</th>
+                            <th class="px-2 py-2"><p class="fa fa-star"></p></th>
+                            <th class="px-2 py-2">CAP</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="w-full bg-gray-900 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="w-full bg-gray-800 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="w-full bg-gray-900 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="w-full bg-gray-800 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="w-full bg-gray-900 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                    </div>
+                <div class="section">
+                    <strong class="text-lg font-bold section-title">SUPLENTES</strong>
+                    <table class="table-auto w-full">
+                        <thead>
+                          <tr>
+                            <th class="px-2 py-2"></th>
+                            <th class="px-2 py-2">POS</th>
+                            <th class="px-2 py-2">JUGADOR</th>
+                            <th class="px-2 py-2"><p class="fa fa-star"></p></th>
+                            <th class="px-2 py-2">CAP</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="bg-gray-900 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="bg-gray-800 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="bg-gray-900 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="bg-gray-800 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                          <tr class="bg-gray-900 bg-opacity-75">
+                            <td class="px-2 py-2"><p class="fa fa-arrow-circle-left"></p></td>
+                            <td class="px-2 py-2">Pos</td>
+                            <td class="px-2 py-2">Jugador 1</td>
+                            <td class="px-2 py-2"><p class="fa fa-flag"></p></td>
+                            <td class="px-2 py-2">PJE</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+            </div>
+            <div id="formation" class="w-full md:w-2/5">
+                <div class="section">
+                  <strong class="text-lg font-bold section-title">TU FORMACIÓN</strong>
+                    <div class="image-container"><img src="img/court_A.png" width="800em"></div>  
+                </div>
+            </div>
+            
+        </div>
+        <div id="save-team" class="w-full button-center-panel">
+          <button class="button bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Guardar</button>
+          <button class="button bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Confirmar equipo y continuar</button>
+        </div>
+      </div>
+  </div>
+  <div id="lower-info">
+    <div class="info-ul flex w-full lg:w-1/2">
+      <div class="info-panel w-1/7">
+        <i class="fa fa-info-circle"></i>
+      </div>
+      <div class="info-panel w-6/7">
+        <ul>
+          <li>Los suplentes se sumarán a tu equipo, una vez elegidos los titulares de cada puesto</li>
+          <li>Realizá transferencias libremente hasta el comienzo de la primera fecha Gran Playoff</li>
+        </ul>
+      </div>
+    </div>
+    <div class="flex w-full lg:w-1/2">
+      <div class="save-info-panel w-1/2">
+        <div class="save-info-icon">
+          <hr class="w-1/3"><i class="fa fa-save"></i><hr class="w-1/3">
+        </div>
+        <div><p>Guardá un equipo por táctica, compará los planteles y decidite.
+          Competirás solo con el que hayas confirmado.</p></div>
+      </div>
+      <div class="save-info-panel w-1/2">
+        <div class="save-info-icon">
+          <hr class="w-1/3"><i class="fa fa-files-o"></i><hr class="w-1/3">
+        </div>
+        <div><p>Si querés comparar formaciones hacé <a>click acá</a>.</p></div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>  
+
+
+    <script src='main.js'></script>
+</body>
+</html>
