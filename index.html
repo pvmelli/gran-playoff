@@ -155,14 +155,12 @@
             <div class="break"></div>
             <div class="w-1/2 xl:w-1/5">
             <label class="block uppercase tracking-wide text-white text-sm font-bold mb-2">
-                CLUB
+                EQUIPO
             </label>
                 <div class="relative">
-                        <select class="small-input block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                        <select class="small-input block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="select-team">
                             <i class="fa fa-unsorted"></i>
-                        <option>New Mexico</option>
-                        <option>Missouri</option>
-                        <option>Texas</option>
+                            <option value="" disabled selected>Equipo</option>
                         </select>
                         <div class="pointer-events-none absolute inset-y-0 sm:right-1 xl:right-0 flex items-center text-gray-700">
                             <i class="fill-current h-4 w-4 fa fa-unsorted"></i>
@@ -171,13 +169,16 @@
             </div>
             <div class="w-1/2 xl:w-1/5">
                 <label class="block uppercase tracking-wide text-white text-sm font-bold mb-2">
-                    PUESTO
+                    POSICIÓN
                   </label>
                   <div class="relative">
                     <select class="small-input block appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-2 px-3 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                      <option>New Mexico</option>
-                      <option>Missouri</option>
-                      <option>Texas</option>
+                      <option value="" disabled selected>Posición</option>
+                      <option>Base</option>
+                      <option>Escolta</option>
+                      <option>Alero</option>
+                      <option>Ala-Pivot</option>
+                      <option>Pivot</option>
                     </select>
                     <div class="pointer-events-none absolute inset-y-0 sm:right-1 xl:right-0 flex items-center text-gray-700">
                         <i class="fill-current h-4 w-4 fa fa-unsorted"></i>
@@ -209,7 +210,7 @@
                   <tr>
                     <th class="px-3 py-2"></th>
                     <th class="px-4 py-2">JUGADOR</th>
-                    <th class="px-4 py-2">CLUB</th>
+                    <th class="px-4 py-2">EQUIPO</th>
                     <th class="px-4 py-2">POS</th>
                     <th class="px-4 py-2">$</th>
                     <th class="px-4 py-2"><p class="fa fa-star"></p></th>
@@ -550,6 +551,6 @@
   </div>  
 
 
-    <script src='main.js'></script>
+    <script type="module" src='main.js'></script>
 </body>
 </html>
