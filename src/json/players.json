@@ -5,727 +5,889 @@
         "number": "34",
         "age": "24",
         "team": "Milwaukee Bucks",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2013",
-        "price": "1136"
+        "price": "1136",
+        "foul": "1",
+        "points": "113"
     }, {
         "id": "002",
         "name": "Khris Middleton",
         "number": "22",
         "age": "27",
         "team": "Milwaukee Bucks",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2012",
-        "price": "1082"
+        "price": "1082",
+        "foul": "1",
+        "points": "108"
     }, {
         "id": "003",
         "name": "George Hill",
         "number": "3",
         "age": "32",
         "team": "Milwaukee Bucks",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2008",
-        "price": "1064"
+        "price": "1064",
+        "foul": "2",
+        "points": "106"
     }, {
         "id": "004",
         "name": "Eric Bledsoe",
         "number": "6",
         "age": "29",
         "team": "Milwaukee Bucks",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2010",
-        "price": "1061"
+        "price": "1061",
+        "foul": "3",
+        "points": "106"
     }, {
         "id": "005",
         "name": "Nikola Mirotić",
         "number": "41",
         "age": "27",
         "team": "Milwaukee Bucks",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2014",
-        "price": "1049"
+        "price": "1049",
+        "foul": "1",
+        "points": "104"
     }, {
         "id": "006",
         "name": "Pat Connaughton",
         "number": "24",
         "age": "26",
         "team": "Milwaukee Bucks",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2015",
-        "price": "1017"
+        "price": "1017",
+        "foul": "1",
+        "points": "101"
     }, {
         "id": "007",
         "name": "Ersan İlyasova",
         "number": "77",
         "age": "31",
         "team": "Milwaukee Bucks",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2006",
-        "price": "1046"
+        "price": "1046",
+        "foul": "1",
+        "points": "104"
     }, {
         "id": "008",
         "name": "Brook Lopez",
         "number": "11",
         "age": "30",
         "team": "Milwaukee Bucks",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2008",
-        "price": "1093"
+        "price": "1093",
+        "foul": "1",
+        "points": "109"
     }, {
         "id": "009",
         "name": "Malcolm Brogdon",
         "number": "13",
         "age": "26",
         "team": "Milwaukee Bucks",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2016",
-        "price": "1081"
+        "price": "1081",
+        "foul": "2",
+        "points": "108"
     }, {
         "id": "010",
         "name": "Tim Frazier",
         "number": "12",
         "age": "28",
         "team": "Milwaukee Bucks",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2014",
-        "price": "1020"
+        "price": "1020",
+        "foul": "1",
+        "points": "102"
     }, {
         "id": "011",
         "name": "Sterling Brown",
         "number": "23",
         "age": "23",
         "team": "Milwaukee Bucks",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2017",
-        "price": "1070"
+        "price": "1070",
+        "foul": "3",
+        "points": "107"
     }, {
         "id": "012",
         "name": "Tony Snell",
         "number": "21",
         "age": "27",
         "team": "Milwaukee Bucks",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2013",
-        "price": "1000"
+        "price": "1000",
+        "foul": "1",
+        "points": "100"
     }, {
         "id": "013",
         "name": "DeVante Jaylen Wilson",
         "number": "5",
         "age": "22",
         "team": "Milwaukee Bucks",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2017",
-        "price": "1020"
+        "price": "1020",
+        "foul": "1",
+        "points": "102"
     }, {
         "id": "014",
         "name": "Isaiah Canaan",
         "number": "7",
         "age": "27",
         "team": "Milwaukee Bucks",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2013",
-        "price": "1060"
+        "price": "1060",
+        "foul": "2",
+        "points": "106"
     }, {
         "id": "015",
         "name": "Bonzie Colson",
         "number": "50",
         "age": "23",
         "team": "Milwaukee Bucks",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2019",
-        "price": "1049"
+        "price": "1049",
+        "foul": "0",
+        "points": "149"
     }, {
         "id": "016",
         "name": "Matthew Dellavedova",
         "number": "8",
         "age": "28",
         "team": "Milwaukee Bucks",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2013",
-        "price": "1059"
+        "price": "1059",
+        "foul": "0",
+        "points": "105"
     }, {
         "id": "017",
         "name": "Donte DiVincenzo",
         "number": "9",
         "age": "22",
         "team": "Milwaukee Bucks",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2018",
-        "price": "1049"
+        "price": "1049",
+        "foul": "1",
+        "points": "104"
     }, {
         "id": "018",
         "name": "Trevon Duval",
         "number": "0",
         "age": "20",
         "team": "Milwaukee Bucks",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2019",
-        "price": "1017"
+        "price": "1017",
+        "foul": "1",
+        "points": "117"
     }, {
         "id": "019",
         "name": "Pau Gasol",
         "number": "17",
         "age": "38",
         "team": "Milwaukee Bucks",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2001",
-        "price": "1039"
+        "price": "1039",
+        "foul": "0",
+        "points": "139"
     }, {
         "id": "020",
         "name": "John Henson",
         "number": "31",
         "age": "28",
         "team": "Milwaukee Bucks",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2012",
-        "price": "1056"
+        "price": "1056",
+        "foul": "1",
+        "points": "105"
     }, {
         "id": "021",
         "name": "Thon Maker",
         "number": "7",
         "age": "21",
         "team": "Milwaukee Bucks",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2016",
-        "price": "1050"
+        "price": "1050",
+        "foul": "1",
+        "points": "105"
     }, {
         "id": "022",
         "name": "Jaylen Morris",
         "number": "30",
         "age": "23",
         "team": "Milwaukee Bucks",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2018",
-        "price": "1025"
+        "price": "1025",
+        "foul": "2",
+        "points": "100"
     }, {
         "id": "023",
         "name": "Jason Smith",
         "number": "20",
         "age": "32",
         "team": "Milwaukee Bucks",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2007",
-        "price": "1035"
+        "price": "1035",
+        "foul": "1",
+        "points": "103"
     }, {
         "id": "024",
         "name": "Christian Wood",
         "number": "35",
         "age": "23",
         "team": "Milwaukee Bucks",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2015",
-        "price": "1208"
+        "price": "1208",
+        "foul": "0",
+        "points": "120"
     }, {
         "id": "025",
         "name": "Kawhi Leonard",
         "number": "2",
         "age": "27",
         "team": "Toronto Raptors",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2011",
-        "price": "1179"
+        "price": "1179",
+        "foul": "0",
+        "points": "117"
     }, {
         "id": "026",
         "name": "Pascal Siakam",
         "number": "43",
         "age": "24",
         "team": "Toronto Raptors",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2016",
-        "price": "1087"
+        "price": "1087",
+        "foul": "1",
+        "points": "108"
     }, {
         "id": "027",
         "name": "Kyle Lowry",
         "number": "7",
         "age": "32",
         "team": "Toronto Raptors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2006",
-        "price": "1115"
+        "price": "1115",
+        "foul": "0",
+        "points": "111"
     }, {
         "id": "028",
         "name": "Marc Gasol",
         "number": "33",
         "age": "34",
         "team": "Toronto Raptors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2008",
-        "price": "1051"
+        "price": "1051",
+        "foul": "3",
+        "points": "105"
     }, {
         "id": "029",
         "name": "Danny Green",
         "number": "14",
         "age": "31",
         "team": "Toronto Raptors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2009",
-        "price": "1021"
+        "price": "1021",
+        "foul": "2",
+        "points": "102"
     }, {
         "id": "030",
         "name": "Serge Ibaka",
         "number": "9",
         "age": "29",
         "team": "Toronto Raptors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2009",
-        "price": "1049"
+        "price": "1049",
+        "foul": "0",
+        "points": "149"
     }, {
         "id": "031",
         "name": "Norman Powell",
         "number": "24",
         "age": "25",
         "team": "Toronto Raptors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2015",
-        "price": "1074"
+        "price": "1074",
+        "foul": "1",
+        "points": "107"
     }, {
         "id": "032",
         "name": "Fred VanVleet",
         "number": "23",
         "age": "24",
         "team": "Toronto Raptors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2016",
-        "price": "1058"
+        "price": "1058",
+        "foul": "2",
+        "points": "105"
     }, {
         "id": "033",
         "name": "Jodie Meeks",
         "number": "20",
         "age": "31",
         "team": "Toronto Raptors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2009",
-        "price": "1005"
+        "price": "1005",
+        "foul": "1",
+        "points": "100"
     }, {
         "id": "034",
         "name": "Malcolm Miller",
         "number": "13",
         "age": "25",
         "team": "Toronto Raptors",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2017",
-        "price": "1002"
+        "price": "1002",
+        "foul": "4",
+        "points": "100"
     }, {
         "id": "035",
         "name": "Jeremy Lin",
         "number": "17",
         "age": "30",
         "team": "Toronto Raptors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2010",
-        "price": "1000"
+        "price": "1000",
+        "foul": "4",
+        "points": "100"
     }, {
         "id": "036",
         "name": "Patrick McCaw",
         "number": "1",
         "age": "23",
         "team": "Toronto Raptors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2016",
-        "price": "900"
+        "price": "900",
+        "foul": "4",
+        "points": "90"
     }, {
         "id": "037",
         "name": "Eric Moreland",
         "number": "15",
         "age": "27",
         "team": "Toronto Raptors",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2014",
-        "price": "1000"
+        "price": "1000",
+        "foul": "1",
+        "points": "100"
     }, {
         "id": "038",
         "name": "Ogugua Anunoby",
         "number": "3",
         "age": "21",
         "team": "Toronto Raptors",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2017",
-        "price": "1700"
+        "price": "1700",
+        "foul": "0",
+        "points": "170"
     }, {
         "id": "039",
         "name": "Chris Boucher",
         "number": "25",
         "age": "26",
         "team": "Toronto Raptors",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2018",
-        "price": "1300"
+        "price": "1300",
+        "foul": "1",
+        "points": "103"
     }, {
         "id": "040",
         "name": "Lorenzo Brown",
         "number": "4",
         "age": "28",
         "team": "Toronto Raptors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2013",
-        "price": "1020"
+        "price": "1020",
+        "foul": "1",
+        "points": "102"
     }, {
         "id": "041",
         "name": "Jordan Loyd",
         "number": "8",
         "age": "25",
         "team": "Toronto Raptors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2018",
-        "price": "1200"
+        "price": "1200",
+        "foul": "0",
+        "points": "120"
     }, {
         "id": "042",
         "name": "Calvin Miles Jr.",
         "number": "0",
         "age": "31",
         "team": "Toronto Raptors",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2005",
-        "price": "1600"
+        "price": "1600",
+        "foul": "0",
+        "points": "160"
     }, {
         "id": "043",
         "name": "Greg Monroe",
         "number": "15",
         "age": "28",
         "team": "Toronto Raptors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2010",
-        "price": "1500"
+        "price": "1500",
+        "foul": "2",
+        "points": "150"
     }, {
         "id": "044",
         "name": "Malachi Richardson",
         "number": "22",
         "age": "23",
         "team": "Toronto Raptors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2016",
-        "price": "1100"
+        "price": "1100",
+        "foul": "2",
+        "points": "110"
     }, {
         "id": "045",
         "name": "Jonas Valančiūnas",
         "number": "17",
         "age": "26",
         "team": "Toronto Raptors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2012",
-        "price": "1150"
+        "price": "1150",
+        "foul": "0",
+        "points": "115"
     }, {
         "id": "046",
         "name": "Delon Wright",
         "number": "55",
         "age": "26",
         "team": "Toronto Raptors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2015",
-        "price": "1870"
+        "price": "1870",
+        "foul": "1",
+        "points": "180"
     }, {
         "id": "047",
         "name": "Kevin Durant",
         "number": "35",
         "age": "30",
         "team": "Golden State Warriors",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2007",
-        "price": "1000"
+        "price": "1000",
+        "foul": "1",
+        "points": "100"
     }, {
         "id": "048",
         "name": "Stephen Curry",
         "number": "30",
         "age": "30",
         "team": "Golden State Warriors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2009",
-        "price": "1146"
+        "price": "1146",
+        "foul": "1",
+        "points": "113"
     }, {
         "id": "049",
         "name": "Klay Thompson",
         "number": "11",
         "age": "28",
         "team": "Golden State Warriors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2011",
-        "price": "1086"
+        "price": "1086",
+        "foul": "3",
+        "points": "100"
     }, {
         "id": "050",
         "name": "Andre Iguodala",
         "number": "9",
         "age": "35",
         "team": "Golden State Warriors",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2004",
-        "price": "1010"
+        "price": "1010",
+        "foul": "1",
+        "points": "113"
     }, {
         "id": "051",
         "name": "Draymond Green",
         "number": "23",
         "age": "28",
         "team": "Golden State Warriors",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2012",
-        "price": "1066"
+        "price": "1066",
+        "foul": "1",
+        "points": "120"
     }, {
         "id": "052",
         "name": "Kevon Looney",
         "number": "5",
         "age": "22",
         "team": "Golden State Warriors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2016",
-        "price": "1040"
+        "price": "1040",
+        "foul": "0",
+        "points": "104"
     }, {
         "id": "053",
         "name": "Shaun Livingston",
         "number": "34",
         "age": "33",
         "team": "Golden State Warriors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2004",
-        "price": "1021"
+        "price": "1021",
+        "foul": "3",
+        "points": "100"
     }, {
         "id": "054",
         "name": "Jonas Jerebko",
         "number": "21",
         "age": "31",
         "team": "Golden State Warriors",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2009",
-        "price": "1011"
+        "price": "1011",
+        "foul": "1",
+        "points": "113"
     }, {
         "id": "055",
         "name": "Alfonzo McKinnie",
         "number": "28",
         "age": "26",
         "team": "Golden State Warriors",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2017",
-        "price": "1023"
+        "price": "1023",
+        "foul": "0",
+        "points": "113"
     }, {
         "id": "056",
         "name": "Jordan Bell",
         "number": "2",
         "age": "24",
         "team": "Golden State Warriors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2017",
-        "price": "1027"
+        "price": "1027",
+        "foul": "3",
+        "points": "70"
     }, {
         "id": "057",
         "name": "Andrew Bogut",
         "number": "12",
         "age": "34",
         "team": "Golden State Warriors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2005",
-        "price": "1060"
+        "price": "1060",
+        "foul": "0",
+        "points": "80"
     }, {
         "id": "058",
         "name": "Quinn Cook",
         "number": "4",
         "age": "25",
         "team": "Golden State Warriors",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2017",
-        "price": "1020"
+        "price": "1020",
+        "foul": "0",
+        "points": "140"
     }, {
         "id": "059",
         "name": "DeMarcus Cousins",
         "number": "0",
         "age": "28",
         "team": "Golden State Warriors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2010",
-        "price": "1160"
+        "price": "1160",
+        "foul": "0",
+        "points": "160"
     }, {
         "id": "060",
         "name": "Marcus Derrickson",
         "number": "32",
         "age": "22",
         "team": "Golden State Warriors",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2018",
-        "price": "1420"
+        "price": "1420",
+        "foul": "0",
+        "points": "140"
     }, {
         "id": "061",
         "name": "Jacob Evans",
         "number": "10",
         "age": "21",
         "team": "Golden State Warriors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2018",
-        "price": "1130"
+        "price": "1130",
+        "foul": "2",
+        "points": "113"
     }, {
         "id": "062",
         "name": "Damian Jones",
         "number": "15",
         "age": "23",
         "team": "Golden State Warriors",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2016",
-        "price": "1540"
+        "price": "1540",
+        "foul": "0",
+        "points": "154"
     }, {
         "id": "063",
         "name": "Damion Lee",
         "number": "1",
         "age": "26",
         "team": "Golden State Warriors",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2018",
-        "price": "1490"
+        "price": "1490",
+        "foul": "0",
+        "points": "149"
     }, {
         "id": "064",
         "name": "Christian James McCollum",
         "number": "3",
         "age": "27",
         "team": "Portland Trail Blazers",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2014",
-        "price": "1888"
+        "price": "1888",
+        "foul": "0",
+        "points": "188"
     }, {
         "id": "065",
         "name": "Damian Lillard",
         "number": "0",
         "age": "28",
         "team": "Portland Trail Blazers",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2012",
-        "price": "1889"
+        "price": "1889",
+        "foul": "2",
+        "points": "180"
     }, {
         "id": "066",
         "name": "Rodney Hood",
         "number": "5",
         "age": "26",
         "team": "Portland Trail Blazers",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2014",
-        "price": "1039"
+        "price": "1039",
+        "foul": "1",
+        "points": "103"
     }, {
         "id": "067",
         "name": "Enes Kanter",
         "number": "00",
         "age": "26",
         "team": "Portland Trail Blazers",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2011",
-        "price": "1027"
+        "price": "1027",
+        "foul": "0",
+        "points": "127"
     }, {
         "id": "068",
         "name": "Zach Collins",
         "number": "33",
         "age": "21",
         "team": "Portland Trail Blazers",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2017",
-        "price": "1024"
+        "price": "1024",
+        "foul": "1",
+        "points": "113"
     }, {
         "id": "069",
         "name": "Al-Faroug Aminu",
         "number": "8",
         "age": "28",
         "team": "Portland Trail Blazers",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2010",
-        "price": "1014"
+        "price": "1014",
+        "foul": "0",
+        "points": "113"
     }, {
         "id": "070",
         "name": "Maurice Harkless",
         "number": "4",
         "age": "25",
         "team": "Portland Trail Blazers",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2012",
-        "price": "1040"
+        "price": "1040",
+        "foul": "0",
+        "points": "149"
     }, {
         "id": "071",
         "name": "Seth Curry",
         "number": "31",
         "age": "28",
         "team": "Portland Trail Blazers",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2014",
-        "price": "1025"
+        "price": "1025",
+        "foul": "0",
+        "points": "125"
     }, {
         "id": "072",
         "name": "Evan Turner",
         "number": "1",
         "age": "30",
         "team": "Portland Trail Blazers",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2010",
-        "price": "1022"
+        "price": "1022",
+        "foul": "1",
+        "points": "122"
     }, {
         "id": "073",
         "name": "Meyers Leonard",
         "number": "11",
         "age": "26",
         "team": "Portland Trail Blazers",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2012",
-        "price": "1053"
+        "price": "1053",
+        "foul": "4",
+        "points": "100"
     }, {
         "id": "074",
         "name": "Skal Labissière",
         "number": "17",
         "age": "22",
         "team": "Portland Trail Blazers",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2016",
-        "price": "1000"
+        "price": "1000",
+        "foul": "3",
+        "points": "100"
     }, {
         "id": "075",
         "name": "Anfernee Simons",
         "number": "24",
         "age": "19",
         "team": "Portland Trail Blazers",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2018",
-        "price": "1000"
+        "price": "1000",
+        "foul": "1",
+        "points": "120"
     }, {
         "id": "076",
         "name": "Jake Layman",
         "number": "10",
         "age": "24",
         "team": "Portland Trail Blazers",
-        "position": "Small Forward",
+        "position": "Alero",
         "debut": "2016",
-        "price": "1000"
+        "price": "1000",
+        "foul": "1",
+        "points": "100"
     }, {
         "id": "077",
         "name": "Wade Baldwin",
         "number": "2",
         "age": "22",
         "team": "Portland Trail Blazers",
-        "position": "Point Guard",
+        "position": "Base",
         "debut": "2016",
-        "price": "1190"
+        "price": "1190",
+        "foul": "0",
+        "points": "190"
     }, {
         "id": "078",
         "name": "Jusuf Nurkić",
         "number": "27",
         "age": "24",
         "team": "Portland Trail Blazers",
-        "position": "Center",
+        "position": "Pivot",
         "debut": "2014",
-        "price": "1500"
+        "price": "1500",
+        "foul": "0",
+        "points": "150"
     }, {
         "id": "079",
         "name": "Nik Stauskas",
         "number": "6",
         "age": "25",
         "team": "Portland Trail Blazers",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2014",
-        "price": "1590"
+        "price": "1590",
+        "foul": "0",
+        "points": "160"
     }, {
         "id": "080",
         "name": "Caleb Swanigan",
         "number": "50",
         "age": "21",
         "team": "Portland Trail Blazers",
-        "position": "Power Forward",
+        "position": "Ala-Pivot",
         "debut": "2017",
-        "price": "1020"
+        "price": "1020",
+        "foul": "1",
+        "points": "102"
     }, {
         "id": "081",
         "name": "Gary Trent",
         "number": "9",
         "age": "20",
         "team": "Portland Trail Blazers",
-        "position": "Shooting Guard",
+        "position": "Escolta",
         "debut": "2018",
-        "price": "1027"
+        "price": "1027",
+        "foul": "1",
+        "points": "127"
     }]}
